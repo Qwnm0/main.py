@@ -1,0 +1,15 @@
+momazos_diccionario = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "SUS": "Una abreviacion para algo sospechoso (suspicious)",
+            "SKIBIDI": "Una taza de baño",
+            "OHIO": "Un estado de EE.UU, lo utilizan para referirse al lugar donde todo lo extraño y paranormal sucede"
+            }
+            
+palabra = input("Escribe una palabra (M A Y U S C U L A S): ")
+
+if palabra in momazos_diccionario.keys():
+    
+    print("Definición de {palabra}:", {momazos_diccionario[palabra]})
+else:
+    print("La palabra no está en el diccionario.")
